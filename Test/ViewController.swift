@@ -17,6 +17,11 @@ class ViewController: UIViewController {
         let i = 25;
         print("i = ", i);
     }
+    
+    override func viewWillAppear(animated: Bool) {
+        let i = 55;
+        print("i = ", i);
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
